@@ -1,0 +1,137 @@
+/** modification de recette*/
+.gris{
+    border-style: solid;
+    border-width: 40px;
+    border-color: #6C829DC0;
+    height: 890px;
+    width: 790px;
+    margin-left: 120px;
+    
+}
+/** encadrement de recette*/
+.gris::before{
+    margin-top: -10px;
+    margin-left: 325px;
+    position: absolute;
+    content: "Recette";
+    background-color: black;
+    color: #FFFFFF;
+    width: 90px;
+    text-align: center;
+    height: 20px;
+}
+/** disposition h1*/
+h1{
+    margin-left: 280px;
+}
+/** la linge sous le texte gateau*/
+.ligne{
+    border-bottom: 3px solid #6C829DC0;
+    width: 100px;
+    margin-left: 330px;
+}
+/** texte dessous ligne*/
+p{
+    margin-left: 250px;
+}
+/** transparence dessous image*/
+img{
+    margin-left: 20px;
+}
+/** transparence modification*/
+.flex{
+    position: relative;
+    width: 748px;
+    background-color:#6C829DC0 ;
+    margin-top: -110px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 90px;
+}
+/** disposition des listes sur le bordure transparent*/
+ul{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 16px;
+    list-style: none;
+}
+
+/** disposition de ingredient et preparation*/
+.ingredient{
+     margin-left: 120px;
+     margin-top: 30px;
+
+}
+/**mettre ingredient en forme*/
+#ingredient{
+    font-weight: bold;
+    text-transform: uppercase;
+    word-spacing: 320px;
+    
+}
+/** disposition ligne 2*/
+.ligne2{
+    border-bottom: 3px solid #6C829DC0;
+    width: 290px;
+    margin-left: 20px;
+    margin-top: 6px;
+}
+.ligne3{
+    border-bottom: 3px solid #6C829DC0;
+    width: 290px;
+    margin-left: 474px;
+    margin-top: -2px;
+}
+
+/** rectangle */
+.rectangle{
+    margin-left: 20px ;
+}
+/** rectangle */
+.chocolat ,.beurre, .sucre, .farine {
+    border: 1px solid #6C829DC0;
+    margin-top: 6px;
+    width: 290px;
+    text-align: center;
+}
+/**cercle numerote 1 */
+.nou:before{
+    content : "\002776";
+    color: #6C829DC0;
+  } 
+  .nou{
+    margin-left: 467px;
+  }
+  /** disposition des textes apres les cercles numerote*/
+  .triangle{
+      display: flex;
+      flex-direction:column;
+      margin-top: -98px;
+  }
+/**cercle numerote 2 */
+  .n:before{
+        content : "\002777";
+        color: #6C829DC0;
+      }
+      .n{
+        margin-left: 467px;
+        margin-top: 6px;
+      }
+/**cercle numerote 3 */
+      .nous:before{
+        content : "\002778";
+        color: #6C829DC0;
+      }
+      .nous{
+        margin-left: 467px;
+        margin-top: 6px;
+      }
+/**cercle numerote 4 */
+      .noue:before{
+        content : "\002779";
+        color: #6C829DC0;
+      }
+      .noue{
+        margin-left: 467px;
+        margin-top: 6px;
+      }
