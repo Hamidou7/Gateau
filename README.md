@@ -1,1 +1,49 @@
-# Gateau
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gateau2.css">
+    <title>Gateau</title>
+</head>
+<body>
+   
+    <section class="gris">
+        <h1>Gateau au chocolat</h1>
+        <p class="ligne"></p>
+        <p>"cette recette facile du gateau au chocolat est un grand <br>
+            classique qui fera plaiasir à vos enfants." </p>
+
+            <div class="photo"><img src="gateau.jpg" alt=""></div>
+            <div class="flex">
+                <ul>
+                    <span style="color: white;"><li>Diffuclté<br>facile</li></span>
+                    <span style="color: white;"><li>Préparation<br>10min</li></span>
+                    <span style="color: white;"><li>Cuisson<br>25min</li></span>
+                    <span style="color: white;"><li>Temps total<br>35min</li></span>
+                </ul>
+            </div>
+            <div class="ingredient">
+                <span id="ingredient">ingredients preparation</span>
+            </div>
+                <div class="ligne2"></div>
+                <div class="ligne3"></div>
+                <section class="rectangle">
+                   
+                <div class="chocolat">Chocolat noir:200g</div>
+                <div class="beurre">Beurre:200g</div>
+                <div class="sucre">Sucre:150g</div>
+                <div class="farine">Farine:80g</div>
+                </section>
+                <section class="triangle"> 
+                <span class="nou">  Faire fondre le 
+                    chocolat avec le beurre </span>
+            <span class="n">  Melanger le sucre,les oeufs et la farine </span>
+            <span class="nous">  Melanger le tout pour faire une pate </span>
+            <span class="noue">  Mettre au four</span>
+        </section>
+         </div>
+    </section>
+</body>
+</html>
